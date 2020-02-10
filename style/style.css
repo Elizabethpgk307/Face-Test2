@@ -1,0 +1,230 @@
+    body {
+        width: 100%;
+    }
+    
+    #love {
+        color: #000000;
+    }
+    
+    .navbar {
+        border: 1px solid black;
+        border-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff) 3;
+        border-width: 10px 0 0;
+        background-color: white;
+    }
+    
+    @media screen and (max-width: 770px) {
+        .navbar-brand {
+            visibility: collapse;
+            clear: both;
+            width: auto;
+            display: none;
+            background-color: red;
+            grid-template-columns: 1fr 1fr;
+            box-sizing: border-box;
+        }
+    }
+    
+    #name {
+        font-size: 16px;
+    }
+    
+    .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        flex: wrap;
+    }
+    
+    .navbar-brand {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    
+    .navbar-collapse .navbar-nav a {
+        flex: 1;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 15px;
+        margin-right: 20px;
+        font-weight: bold;
+    }
+    
+    .nav {
+        padding: 12px 40px 12px 40px;
+        border: 1px solid lightgray;
+    }
+    
+    #search {
+        border-radius: 0px;
+        height: 50px;
+        background-color: #F2F2F2;
+        border: none;
+        width: 60%;
+    }
+    
+    #search-button {
+        border-radius: 0px;
+        background-color: black;
+        border: none;
+        height: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-weight: bold;
+    }
+    
+    #search-cover {
+        width: 75%;
+        padding: 3px 0px 3px 0px;
+    }
+    
+    .logo {
+        margin-top: 5px;
+        margin-right: 20px;
+    }
+    
+    #group {
+        width: 100%;
+    }
+    
+    .signup {
+        border: 1px solid #F2F2F2;
+        color: black;
+        height: 50px;
+        margin-top: 8px;
+        margin-left: 20px;
+        padding: 8px 30px;
+    }
+    
+    .signin {
+        color: black;
+        margin-top: 1px;
+        margin-left: 20px;
+        margin-bottom: 1px;
+        padding: 20px 2px;
+    }
+    
+    #text1 {
+        background-image: url("../images/b1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 7% 27% 7% 27%;
+        color: white;
+        width: 200px;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+    }
+    
+    #text1 h1 {
+        font-family: Poppins, sans-serif;
+        font-weight: 600;
+        font-size: 80px;
+        margin: 10px 0px;
+    }
+    
+    #text2 {
+        padding-top: 1%;
+        margin-top: 20px;
+        margin-right: 50px;
+        margin-bottom: 20px;
+    }
+    
+    #text2 p {
+        text-align: center;
+        padding: 0px 20px 0px 20px;
+    }
+    
+    #text3 h2 {
+        padding-right: 20px;
+        padding-left: 20px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 40px;
+    }
+    
+    #btn1 {
+        border: none;
+        border-bottom: 4px solid #FA8717;
+        background-color: #C12127;
+        color: white;
+        font-weight: bold;
+        width: 230px;
+        height: 60px;
+        margin: 20px 40px;
+    }
+    
+    #btn2 {
+        border: none;
+        border-bottom: 4px solid #B30AD2;
+        background-color: #E81AA8;
+        color: white;
+        font-weight: bold;
+        width: 230px;
+        height: 60px;
+    }
+    
+    #subcontainer {
+        justify-content: center;
+        padding-top: 20px;
+    }
+    
+    #img1 {
+        margin-left: 300px;
+    }
+    
+    #img2 {
+        margin-left: 300px;
+    }
+    
+    #img4 {
+        margin-left: 300px;
+    }
+    
+    #img5 {
+        margin-left: 300px;
+    }
+    
+    #second {
+        margin-left: 650px;
+        margin-top: -190px;
+    }
+    
+    #second1 {
+        margin-left: 1050px;
+        margin-top: -190px;
+    }
+    
+    #second2 {
+        margin-left: 1400px;
+        margin-top: -190px;
+    }
+    
+    .learn {
+        border: 1px solid rgb(5, 0, 0);
+        color: black;
+        height: 100px;
+        width: 50px;
+        border-radius: 30px;
+    }
+    
+    .secimg {
+        background-image: url("../images/bg2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 7% 27% 7% 27%;
+        color: white;
+        width: 1979px;
+        height: 350px;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+    }
+    
+    .footer {
+        border: 1px solid black;
+        border-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff) 3;
+        border-width: 10px 0 0;
+        background-color: white;
+    }
+    
+    .middle {
+        margin-left: 300px;
+    }
